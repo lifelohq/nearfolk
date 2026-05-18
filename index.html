@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nearfolk — stay close with the people who matter</title>
+  <meta name="description" content="Nearfolk is a gentle personal CRM for the people you love. Remember birthdays, holidays, and when you last caught up." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%AB%82%3C/text%3E%3C/svg%3E" />
+  <meta property="og:title" content="Nearfolk" />
+  <meta property="og:description" content="Stay close with the people who matter." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #fdf5f7;
+      --surface: #ffffff;
+      --text: #2e1020;
+      --muted: #a87898;
+      --accent: #c8608a;
+      --accent-dark: #9c3868;
+      --accent-light: #fce8f2;
+      --border: #edd5e2;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+    header { display: flex; align-items: center; gap: 10px; margin-bottom: 64px; }
+    .logo { font-size: 28px; }
+    .brand { font-size: 18px; font-weight: 800; letter-spacing: -0.3px; }
+    h1 {
+      font-size: clamp(36px, 6vw, 56px);
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      margin: 0 0 16px;
+      font-weight: 800;
+    }
+    .lead { font-size: 19px; color: var(--muted); max-width: 540px; margin: 0 0 32px; }
+    .cta {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      box-shadow: 0 6px 18px rgba(200,96,138,0.35);
+      transition: transform 0.15s ease;
+    }
+    .cta:hover { transform: translateY(-1px); }
+    .features {
+      margin-top: 72px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .feature {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .feature .emoji { font-size: 24px; margin-bottom: 8px; }
+    .feature h3 { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
+    .feature p { margin: 0; font-size: 13px; color: var(--muted); }
+    footer {
+      margin-top: 96px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent-dark); text-decoration: none; font-weight: 600; }
+    footer a:hover { text-decoration: underline; }
+    .pill {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent-dark);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="logo">🫂</span>
+      <span class="brand">Nearfolk</span>
+    </header>
+
+    <span class="pill">Coming soon to the App Store</span>
+    <h1>Stay close with the people who matter.</h1>
+    <p class="lead">
+      Nearfolk is a quiet little app for remembering birthdays, holidays,
+      and when you last caught up with the people you love.
+      No feeds, no scoring — just gentle nudges.
+    </p>
+    <a class="cta" href="mailto:anishaprathi5@gmail.com?subject=Nearfolk%20—%20notify%20me">Notify me at launch</a>
+
+    <div class="features">
+      <div class="feature">
+        <div class="emoji">💬</div>
+        <h3>Reconnect reminders</h3>
+        <p>Tell Nearfolk how often you want to catch up. It nudges when it's been a while.</p>
+      </div>
+      <div class="feature">
+        <div class="emoji">🎂</div>
+        <h3>Birthdays & holidays</h3>
+        <p>Advance notice for what matters, with the lead time you choose.</p>
+      </div>
+      <div class="feature">
+        <div class="emoji">🔒</div>
+        <h3>Yours, on your phone</h3>
+        <p>Everything stays on your device. No accounts, no servers, no tracking.</p>
+      </div>
+    </div>
+
+    <footer>
+      <span>© 2026 Nearfolk</span>
+      <a href="privacy.html">Privacy policy</a>
+    </footer>
+  </div>
+</body>
+</html>
